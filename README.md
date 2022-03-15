@@ -5,6 +5,7 @@ SImple full stack app using React and ASP.NET core.
 ## Repo structure
 
 Branch : "master-1" contains frontend code
+
 Branch : "master-2" contains backend code
 
 Both apps need to be run from local machine.
