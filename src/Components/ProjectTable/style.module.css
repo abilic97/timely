@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap);
+.tableContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5em;
+}
+
+.tableHeaders {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #8C9FFD;
+    color: white;
+}
+
+.tableEntries>tr,
+th,tr {
+    border: 1px groove #1c87c9;
+
+}
+
+.table {
+    border-collapse: collapse;
+    width: 80%;
+    border-style: ridge;
+}
+
+.projectsTitle {
+    padding-bottom: 2em;
+    font-size: larger;
+    text-align: center;
+}
+
+.button {
+    text-transform: uppercase;  
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    width: 5em;
+    height: 2em;
+    background-color: #9f8cfd;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    margin:1em;
+}
+
+.buttonContainer {
+    display: flex;
+}
